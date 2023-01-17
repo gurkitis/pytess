@@ -7,6 +7,7 @@ thresholds = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 
 error_data = []
 extra_work_data = []
+abby_data = []
 for threshold in thresholds:
     _error_data, _extra_work_data = [], []
     for page in pages:
@@ -20,11 +21,15 @@ for threshold in thresholds:
 
 error_df = pd.DataFrame(error_data, columns=pages, index=thresholds)
 extra_work_df = pd.DataFrame(extra_work_data, columns=pages, index=thresholds)
-writer = pd.ExcelWriter('results.xlsx')
-error_df.to_excel(writer, sheet_name='error')
-extra_work_df.to_excel(writer, sheet_name='extra_work')
-writer.close()
 
 for page in pages:
     error, extra_work = validate(page, target_suffix='Abby.txt')
+    abby_data.append(error)
     print(page, 'error', error, 'extra_work', extra_work)
+abby_data_df = pd.DataFrame([abby_data], columns=pages)
+
+writer = pd.ExcelWriter('results.xlsx')
+error_df.to_excel(writer, sheet_name='error')
+extra_work_df.to_excel(writer, sheet_name='extra_work')
+abby_data_df.to_excel(writer, sheet_name='abby_data')
+writer.close()
