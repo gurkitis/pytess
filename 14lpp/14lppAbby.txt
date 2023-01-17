@@ -1,0 +1,33 @@
+BULGĀRU VALODA
+c — kā krievu 9 (latviešu šaurais c)
+m — št
+t> — kā krievu a, o neuzsvērtā zilbē
+ČEHU VALODA
+ē — je (c ar iepriekšējā līdzskaņa mīkstinājumu)
+h — ņ
+f — rž, rš
+ū — ū
+GOTU VALODA
+c — ē
+ci — i
+o — o
+q — kv
+h — hv (viena fonēma)
+p — kā angļu th
+GRIEĶU (SENGRIEĶU) VALODA - LATĪŅU TRANSKRIPCIJA
+ē (r|) — plats ē
+6 (co) — plats o
+ci (ci) — šaurs ē > i
+ou (oii) — šaurs o > ū
+y (\)) — aptuveni kā vācu ū
+HETU VALODA
+b — laringālis
+t/d
+k/g > — nešķir balsīgos un nebalsīgos līdzskaņus; apzī
+p/b mējumi mijas
+HOLANDIEŠU VALODA
+ae — ā
+au — ou
+eeu — ēu
+ie — i
+
